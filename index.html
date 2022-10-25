@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			Я хедер
+		</header>
+		<main class="main">
+			<nav class="flexbox-properties">
+				<ul class="flexbox-properties__list">
+					<li class="flexbox-properties__item">
+						<h2 class="flexbox-properties__title"> Properties - container</h2>
+						<ul class="properties-container">
+							<li class="properties-container__item">
+								<div id="display-block" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="display-flex" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="display-inline-flex" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div class="properties-container__choise">
+									<div class="properties-container__name properties-container__name_display">display:</div>
+									<a href="#display-block" class="properties-container__link">block</a>
+									<a href="#display-flex" class="properties-container__link">flex</a>
+									<a href="#display-inline-flex" class="properties-container__link">inline-flex;</a>
+
+								</div>
+							</li>
+							<li class="properties-container__item">
+								<div id="flex-direction-row" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="flex-direction-row-reverse" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="flex-direction-column" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="flex-direction-column-reverse" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div class="properties-container__choise">
+									<div class="properties-container__name properties-container__name_flex-direction">flex-direction:</div>
+									<a href="#flex-direction-row" class="properties-container__link">row</a>
+									<a href="#flex-direction-row-reverse" class="properties-container__link">row-reverse</a>
+									<a href="#flex-direction-column" class="properties-container__link">column</a>
+									<a href="#flex-direction-column-reverse" class="properties-container__link">column-reverse</a>
+								</div>
+							</li>
+							<li class="properties-container__item">
+								<div id="justify-content-flex-start" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="justify-content-flex-end" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="justify-content-center" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="justify-content-space-between" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="justify-content-space-around" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="justify-content-space-evenly" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div class="properties-container__choise">
+									<div class="properties-container__name properties-container__name_justify-content">justify-content:</div>
+									<a href="#justify-content-flex-start" class="properties-container__link">flex-start</a>
+									<a href="#justify-content-flex-end" class="properties-container__link">flex-end</a>
+									<a href="#justify-content-center" class="properties-container__link">center</a>
+									<a href="#justify-content-space-between" class="properties-container__link">space-between</a>
+									<a href="#justify-content-space-around" class="properties-container__link">space-around</a>
+									<a href="#justify-content-space-evenly" class="properties-container__link">space-evenly</a>
+								</div>
+							</li>
+							<li class="properties-container__item">
+								<div id="align-items-stretch" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="align-items-flex-start" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="align-items-flex-end" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="align-items-center" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="align-items-baseline" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div class="properties-container__choise">
+									<div class="properties-container__name properties-container__name_align-items">align-items:</div>
+									<a href="#align-items-stretch" class="properties-container__link">stretch</a>
+									<a href="#align-items-flex-start" class="properties-container__link">flex-start</a>
+									<a href="#align-items-flex-end" class="properties-container__link">flex-end</a>
+									<a href="#align-items-center" class="properties-container__link">center</a>
+									<a href="#align-items-baseline" class="properties-container__link">baseline</a>
+								</div>
+							</li>
+							<li class="properties-container__item">
+								<div id="gap-15" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="row-gap-15" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div id="column-gap-15" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+									<div class="container__item">4</div>
+								</div>
+								<div class="properties-container__choise">
+									<div class="properties-container__name properties-container__name_gap">gap:</div>
+									<a href="#gap-15" class="properties-container__link">gap: 15px</a>
+									<a href="#row-gap-15" class="properties-container__link">row-gap: 15px</a>
+									<a href="#column-gap-15" class="properties-container__link">column-gap: 15px</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+					<li class="flexbox-properties__item">
+						<h2 class="flexbox-properties__title"> Properties - items</h2>
+						<ul class="properties-items">
+							<li class="properties-items__item">
+								<div id="order-312" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="order-132" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="order-231" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div class="properties-items__choise">
+									<div class="properties-items__name properties-items__name_order">order:</div>
+									<a href="#order-312" class="properties-items__link"> <span>first item - order: 3;</span><span>second item - order: 1;</span><span>third item - order 2;</span></a>
+									<a href="#order-132" class="properties-items__link"> <span>first item - order: 1;</span><span>second item - order: 3;</span><span>third item - order 2;</span></a>
+									<a href="#order-231" class="properties-items__link"> <span>first item - order: 2;</span><span>second item - order: 3;</span><span>third item - order 1;</span></a>
+								</div>
+							</li>
+							<li class="properties-items__item">
+								<div id="flex-grow-1" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="flex-grow-2" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="flex-grow-3" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div class="properties-items__choise">
+									<div class="properties-items__name properties-items__name_flex-grow">flex-grow:</div>
+									<a href="#flex-grow-1" class="properties-items__link"> <span>first item - grow: 0;</span><span>second item - grow: 0;</span><span>third item - grow: 1;</span></a>
+									<a href="#flex-grow-2" class="properties-items__link"><span>first item - grow: 2;</span><span>second item - grow: 1;</span><span>third item - grow: 1;</span></a>
+									<a href="#flex-grow-3" class="properties-items__link"><span>first item - grow: 1;</span><span>second item - grow: 1;</span><span>third item - grow: 1;</span></a>
+								</div>
+							</li>
+							<li class="properties-items__item">
+								<div id="flex-shrink-1" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="flex-shrink-2" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="flex-shrink-3" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div class="properties-items__choise">
+									<div class="properties-items__name properties-items__name_flex-shrink">flex-shrink:</div>
+									<a href="#flex-shrink-1" class="properties-items__link"><span>first item - shrink: 0;</span><span>second item - shrink: 0;</span><span>third item - shrink: 1;</span></a>
+									<a href="#flex-shrink-2" class="properties-items__link"><span>first item - shrink: 2;</span><span>second item - shrink: 1;</span><span>third item - shrink: 1;</span></a>
+									<a href="#flex-shrink-3" class="properties-items__link"><span>first item - shrink: 1;</span><span>second item - shrink: 1;</span><span>third item - shrink: 1;</span></a>
+								</div>
+							</li>
+							<li class="properties-items__item">
+								<div id="flex-basis-1" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="flex-basis-2" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="flex-basis-3" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div class="properties-items__choise">
+									<div class="properties-items__name properties-items__name_flex-basis">flex-basis:</div>
+									<a href="#flex-basis-1" class="properties-items__link"><span>first item - flex-basis: auto;</span><span>second item - flex-basis: 100%;</span><span>third item - flex-basis: 200px;</span></a>
+									<a href="#flex-basis-2" class="properties-items__link"><span>first item - flex-basis: 100%;</span><span>second item - flex-basis: 100%;</span><span>third item - flex-basis: 100%;</span></a>
+									<a href="#flex-basis-3" class="properties-items__link"><span>first item - flex-basis: 300px;</span><span>second item - flex-basis: 400px;</span><span>third item - flex-basis: 150px;</span></a>
+								</div>
+							</li>
+							<li class="properties-items__item">
+								<div id="align-self-flex-start" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="align-self-flex-end" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="align-self-center" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div id="align-self-stretch" class="container">
+									<div class="container__item">1</div>
+									<div class="container__item">2</div>
+									<div class="container__item">3</div>
+								</div>
+								<div class="properties-items__choise">
+									<div class="properties-items__name properties-items__name_align-self">align-self:</div>
+									<a href="#align-self-flex-start" class="properties-items__link">flex-start</a>
+									<a href="#align-self-flex-end" class="properties-items__link">flex-end</a>
+									<a href="#align-self-center" class="properties-items__link">center</a>
+									<a href="#align-self-stretch" class="properties-items__link">stretch</a>
+								</div>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</main>
+		<footer class="footer">
+			Я футер
+		</footer>
+	</div>
+</body>
+
+</html>
